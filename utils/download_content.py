@@ -9,7 +9,7 @@ def download_content(video_url):
   if os.path.exists(res_folder): shutil.rmtree(res_folder)
   os.makedirs(res_folder, exist_ok=True)
   
-  video_url= 'https://www.instagram.com/p/DChnh9yxQ0q/?hl=en&img_index=1'#'https://www.instagram.com/p/DC11wzFsGul/?hl=en'
+  #video_url= 'https://www.instagram.com/p/DChnh9yxQ0q/?hl=en&img_index=1'#'https://www.instagram.com/p/DC11wzFsGul/?hl=en'
   #initiate webdriver
   chrome_options = Options()
   chrome_options.add_argument("--headless")  # Run Chrome in headless mode
