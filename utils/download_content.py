@@ -6,7 +6,7 @@ def download_content(video_url):
   import os, shutil, requests
   #create results folder if does not exists
   res_folder='/content/results'
-  if os.path.exists(res_folder): shutil.rmtree(res_folder)
+  #if os.path.exists(res_folder): shutil.rmtree(res_folder)
   os.makedirs(res_folder, exist_ok=True)
   
   #video_url= 'https://www.instagram.com/p/DChnh9yxQ0q/?hl=en&img_index=1'#'https://www.instagram.com/p/DC11wzFsGul/?hl=en'
