@@ -56,4 +56,4 @@ def download_content(video_url):
               f.write(r.content)
   
   driver.quit()
-  return str(video_url.split('/')[-2]+'_'+str(i)+extension)
+  return 'file correctly saved in your content/results/ folder'
